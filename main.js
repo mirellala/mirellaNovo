@@ -43,17 +43,17 @@ function tocaSomPsh () {
 
 document.querySelector('.tecla_psh').onclick= tocaSomPsh;
 
-function tocaSomClap () {
-    document.querySelector('#som_tecla_clap').play();
+function tocaSomTic () {
+    document.querySelector('#som_tecla_tic').play();
 }
 
-document.querySelector('.tecla_clap').onclick= tocaSomClap;
+document.querySelector('.tecla_tic').onclick= tocaSomClap;
 
-function tocaSomClap () {
-    document.querySelector('#som_tecla_clap').play();
+function tocaSomTom () {
+    document.querySelector('#som_tecla_tom').play();
 }
 
-document.querySelector('.tecla_clap').onclick= tocaSomClap;
+document.querySelector('.tecla_tom').onclick= tocaSomClap;
 
 
 
